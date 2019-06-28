@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
+using namespace std;
 
 
 int *isort ( int A[] )
@@ -31,13 +31,13 @@ int main( int argc, char *argv[] )
   sorted = isort(A);
 
 
-  printf("( ");
+  cout << "( ";
 
   for ( i=0; i<11; i++ ) { 
-    printf( "%d ", *(sorted + i));
+    cout << *(sorted + i) << " ";
   }
 
-  printf(")\n");
+  cout << ")" << endl;
 
 	return 0;
 }
