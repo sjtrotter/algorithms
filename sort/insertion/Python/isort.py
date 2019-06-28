@@ -17,6 +17,8 @@ def isort(*args):
                                           # swap them.
       items[i + 1] = items[i]
       i = i - 1
+      # then, repeat until at beginning of list
+
 
     # reassign key to the next item
     items[i + 1] = key
