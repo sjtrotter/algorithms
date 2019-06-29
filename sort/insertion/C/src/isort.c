@@ -1,34 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-
-int *isort ( int A[] )
+int lsearch ( int A[], int value )
 {
-  int j;
-  int i;
-  int key;
+  int i = 0;
 
-  for ( j=1; j<11; j++) {
-
-    key = A[j];
-    i = j - 1;
-
-    while ( i > -1 && A[i] > key ) {
-      A[i + 1] = A[i];
-      i--;
-    }
-  A[i+1] = key;
-  }
-  return A;
+  return i;
 }
 
 int main( int argc, char *argv[] )
 {
-  int *sorted;
-  int i;
-  int A[11] = {10,8,4,6,3,1,2,9,7,5,0};
+  int A[6] = {31,41,59,26,41,58};
 
-  sorted = isort(A);
+
 
 
   printf("( ");
