@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def lsearch(B, value):
   for item in B:
@@ -20,5 +20,5 @@ for item in A:
 outstr = outstr + ")"
 
 print(outstr)
-print value1, " is at index ", index1
-print value2, " is at index ", index2
+print(value1, " is at index ", index1)
+print(value2, " is at index ", index2)
